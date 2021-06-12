@@ -4,7 +4,6 @@ import { Box, Button, Container, Grid, Typography, Card, CardActionArea, CardMed
 
 const Event = ({blog}) => {
     const {image, title, description} = blog;
-    console.log(image)
     const classes = useStyles();
     return (
         <>
