@@ -2,6 +2,7 @@ import './App.css';
 import About from './Component/About/About';
 import Header from './Component/Header/Header';
 import Slider from './Component/Slider/Slider';
+import Blog from './Component/Blog/Blog';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <About/>
       <Slider/>
+      <Blog/>
     </>
   );
 }
