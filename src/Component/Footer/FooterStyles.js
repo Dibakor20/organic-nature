@@ -7,10 +7,13 @@ import Image from '../../images/Group 229.png'
 export const useStyles = makeStyles((theme) => ({
     Footer: {
         marginTop: "120px",
-        // backgroundImage: `url(${Image})`,
-        height: "50vh",
-        backgroundColor: "#374b5c"
+        background: `url('${Image}') no-repeat`,
     },
+    Footer_container:{
+        padding:'50px 0px 0px 0px'
+        
+    },
+
     footerDescription: {
         fontSize: "14px",
         margin: "10px 0px",
@@ -31,6 +34,12 @@ export const useStyles = makeStyles((theme) => ({
         color: "#fff",
         fontFamily: "LibreBaskerville",
         fontWeight: "bold"
-
+    },
+    linkedin: {
+        margin: "0px 20px"
+    },
+    Box_Product: {
+        marginTop: "60px"
     }
+
 }))

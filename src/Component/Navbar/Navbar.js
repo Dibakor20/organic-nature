@@ -3,6 +3,8 @@ import { AppBar, Toolbar, IconButton, Typography, Button, Box, Hidden, }from '@m
 import { useStyles } from '../Header/HeaderStyles';
 import logo from '../../images/Group 220.png'
 import MenuIcon from '@material-ui/icons/Menu';
+import { Container } from '@material-ui/core';
+import './Navbar.css'
 
 const navLinks = [
     { id: "Home", label: "Home" },
@@ -17,6 +19,7 @@ const Navbar = () => {
     return (
         <>
            <AppBar position="static" className={classes.Navbar}>
+               <Container>
             <Toolbar className={classes.Toolbar}>
                 <Typography className={classes.Organic} >
                 <img src={logo} alt="logo" className={classes.logo} />
@@ -25,10 +28,11 @@ const Navbar = () => {
                 <Box component={Hidden} xsDown>
                     <Box>
                 {navLinks.map((item, i) => (
-               <Button className={classes.NavLinks}>
+               <Button id={item.id}   className={classes.NavLinks}>
                 {item.label}
               </Button>
             ))} </Box>
+            
                 </Box>
 
                 <Box component={Hidden} smUp>
@@ -38,6 +42,7 @@ const Navbar = () => {
                 </Box>
                 
             </Toolbar>
+            </Container>
             </AppBar> 
         </>
     );

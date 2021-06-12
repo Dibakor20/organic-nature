@@ -1,0 +1,10 @@
+#Contact:last-child{
+    border: 1px solid #00dbd0;
+
+}
+
+#Home:first-child{
+    border-bottom: 1px solid #00dbd0;
+    border-radius: 0;
+
+}

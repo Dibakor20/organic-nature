@@ -9,7 +9,7 @@ const Event = ({blog}) => {
         <>
             <Card className={classes.root}>
             <CardActionArea>
-            <img src={image} alt="logo" className={classes.logo} />
+            <img src={image} alt="logo" className={classes.Blog_Images} />
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
                    {title}

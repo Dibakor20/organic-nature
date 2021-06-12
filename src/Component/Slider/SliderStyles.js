@@ -15,6 +15,17 @@ export const useStyles = makeStyles((theme) => ({
         textAlign: "center",
         fontSize: "16px",
         color: "#374b5c",
-    }
+    },
+
+  
+      Slider_Container:{
+        textAlign: "center",
+        
+      },
+      Slider_Content:{
+        marginBottom:'50px',
+
+      }
+     
 
 }))

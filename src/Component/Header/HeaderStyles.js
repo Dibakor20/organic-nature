@@ -1,14 +1,14 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 
+
 export const useStyles = makeStyles((theme) => ({
-    HeaderWraper: {
+    HeaderWrapper: {
         width: "100%",
-        height: "90vh",
-        background: "#f1fefe"
+        background: "#f1fefe",
     },
     Navbar: {
-        backgroundColor:"#f1fefe"
+        backgroundColor: "#f1fefe"
     },
     Toolbar: {
         display: "flex",
@@ -16,17 +16,27 @@ export const useStyles = makeStyles((theme) => ({
         justifyContent: "space-between"
     },
     NavLinks: {
-       fontFamily: "LibreBaskerville",
-       fontSize: "16px",
-       margin: "0px 20px "
+        fontFamily: "LibreBaskerville",
+        fontSize: "16px",
+        margin: "0px 20px "
 
     },
     Organic: {
+        display: 'flex',
+        alignItems: 'center',
         fontSize: "42px",
         color: "#374b5c",
         fontWeight: "bold",
         fontFamily: "LibreBaskerville",
     },
+
+
+    Header_Container: {
+        flexGrow: 1,
+        height: "90vh",
+
+    },
+
     Healthy: {
         fontSize: "36px",
         color: "#374b5c",
@@ -39,7 +49,7 @@ export const useStyles = makeStyles((theme) => ({
     },
     Vegetable: {
         fontSize: "22px",
-        color: "#374b5c", 
+        color: "#374b5c",
     },
     BannerButton: {
         color: "#fff",
@@ -49,12 +59,21 @@ export const useStyles = makeStyles((theme) => ({
         margin: "20px 0px"
     },
     BannerImg: {
-       padding: "20px 20px", 
-       width: "140px",
-       border: "solid 3px #00dbd0"
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginLeft: '150px',
+        padding: "40px",
+        width: "140px",
+        border: "solid 3px #00dbd0"
     },
     BannerLastImg: {
-        width: "200px",
-        height: "370px",
+        width: "300px",
+        height: "470px",
+        position: 'absolute',
+        top: '40%',
+        left: '50%'
+
     }
+
 }))
