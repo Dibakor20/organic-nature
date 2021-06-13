@@ -33,12 +33,12 @@ const Blog = () => {
                 <Container>
                     <Box className={classes.Blog}>
                         <Typography>
-                            <img src={BlogLogo} alt="Bloglogo" className={classes.BlogLogo} />
+                            <img src={BlogLogo} alt="Bloglogo" className={classes.Blog_Logo} />
                         </Typography>
-                        <Typography className={classes.BlogTitle}>
+                        <Typography className={classes.Blog_Title}>
                             Read Our Blog
                         </Typography>
-                        <Typography className={classes.BlogDescription}>
+                        <Typography className={classes.Blog_Description}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br /> incididunt ut labore et dolore magna aliqua.
                         </Typography>
                     </Box>

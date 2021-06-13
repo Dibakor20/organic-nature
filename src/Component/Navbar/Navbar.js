@@ -18,7 +18,7 @@ const Navbar = () => {
     const classes = useStyles()
     return (
         <>
-           <AppBar position="static" className={classes.Navbar}>
+           <AppBar id="Navbar" position="static" className={classes.Navbar}>
                <Container>
             <Toolbar className={classes.Toolbar}>
                 <Typography className={classes.Organic} >

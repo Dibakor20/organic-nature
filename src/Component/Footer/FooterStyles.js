@@ -14,13 +14,13 @@ export const useStyles = makeStyles((theme) => ({
         
     },
 
-    footerDescription: {
+    footer_Description: {
         fontSize: "14px",
         margin: "10px 0px",
         color: "#fff",
         fontFamily: "LibreBaskerville"
     },
-    footerCopyright: {
+    footer_Copyright: {
         marginTop: "40px",
         fontSize: "14px",
         margin: "10px 0px",
@@ -28,7 +28,7 @@ export const useStyles = makeStyles((theme) => ({
         fontFamily: "LibreBaskerville",
         fontWeight: "bold"
     },
-    footerTitle: {
+    footer_Title: {
         fontSize: "16px",
         margin: "20px 0px",
         color: "#fff",

@@ -7,9 +7,7 @@ export const useStyles = makeStyles((theme) => ({
         width: "100%",
         background: "#f1fefe",
     },
-    Navbar: {
-        backgroundColor: "#f1fefe"
-    },
+    
     Toolbar: {
         display: "flex",
         flexFlow: "row wrap",
@@ -37,28 +35,28 @@ export const useStyles = makeStyles((theme) => ({
 
     },
 
-    Healthy: {
+    Header_Subtitle: {
         fontSize: "36px",
         color: "#374b5c",
     },
-    Nature: {
+    Header_title: {
         fontSize: "56px",
         color: "#374b5c",
         fontWeight: "bold",
         fontFamily: "LibreBaskerville",
     },
-    Vegetable: {
+    Header_Description: {
         fontSize: "22px",
         color: "#374b5c",
     },
-    BannerButton: {
+    Banner_Button: {
         color: "#fff",
         background: "#00dbd0",
         padding: "10px 30px",
         borderRadius: "10px",
         margin: "20px 0px"
     },
-    BannerImg: {
+    Banner_Img: {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -67,7 +65,7 @@ export const useStyles = makeStyles((theme) => ({
         width: "140px",
         border: "solid 3px #00dbd0"
     },
-    BannerLastImg: {
+    Banner_LastImg: {
         width: "300px",
         height: "470px",
         position: 'absolute',

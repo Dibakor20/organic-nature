@@ -67,7 +67,7 @@ const Testimonials = () => {
                     </Box>
                     <Box className={classes.ContactDescription}>
                         <TextField id="standard-basic" label="Enter Your Email Adress" />
-                        <Button className={classes.ContactButton}>
+                        <Button className={classes.Contact_Button}>
                             Subscribe
                         </Button>
                     </Box>

@@ -35,11 +35,11 @@ const Slider = () => {
         <>
             <div className={classes.SliderSection}>
                 <Container>
-                    <Box className={classes.SliderContent}>
-                        <Typography className={classes.SliderTitle}>
+                    <Box className={classes.Slider_Top}>
+                        <Typography className={classes.Slider_Title}>
                             Proudly presented by
                         </Typography>
-                        <Typography className={classes.SliderDescription}>
+                        <Typography className={classes.Slider_Description}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br /> incididunt ut labore et dolore magna aliqua.
                         </Typography>
                     </Box>

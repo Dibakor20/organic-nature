@@ -58,7 +58,7 @@ export const useStyles = makeStyles((theme) => ({
         display: "block",
         margin: "0px auto"
     },
-    ContactButton: {
+    Contact_Button: {
         color: "#fff",
         background: "#00dbd0",
         borderRadius: "30px",

@@ -9,28 +9,22 @@ import bannerLastImg from '../../images/Group 195.png'
 const Header = () => {
   const classes = useStyles()
 
-  //for drawer .
-  const [initialState, setInitialState] = useState(false);
-  const handleDrawerOpen = () => {
-    setInitialState(!initialState);
-  };
-
   return (
     <>
       <Box className={classes.HeaderWrapper} id='header'>
         <Container>
             <Grid className={classes.Header_Container} container direction="row" justify="center" alignItems="center">
               <Grid className={classes.Header_Left} item xs={12} sm={6}>
-                <Typography className={classes.Healthy} >
+                <Typography className={classes.Header_Subtitle} >
                   Healthy life with
                 </Typography>
-                <Typography className={classes.Nature} >
+                <Typography className={classes.Header_title} >
                   Nature Organic
                 </Typography>
-                <Typography className={classes.Vegetable} >
+                <Typography className={classes.Header_Description} >
                   Vegetables are the edible parts of a plant <br /> that is used in cooking or can be eaten now.
                 </Typography>
-                <Button className={classes.BannerButton}>
+                <Button className={classes.Banner_Button}>
                   Explore Now
                 </Button>
               </Grid>
@@ -38,12 +32,12 @@ const Header = () => {
                 <img
                   src={bannerImg}
                   alt={"bannerImg"}
-                  className={classes.BannerImg}
+                  className={classes.Banner_Img}
                 />
                 <img
                   src={bannerLastImg}
                   alt={"bannerLastImg"}
-                  className={classes.BannerLastImg}
+                  className={classes.Banner_LastImg}
                 />
               </Grid>
             </Grid>

@@ -7,16 +7,16 @@ export const useStyles = makeStyles((theme) => ({
         display: "block",
         margin: "60px auto"
     },
-    AboutLogo: {
+    About_Logo: {
         display: "block",
         margin: "20px auto"
     },
-    AboutTitle: {
+    About_Title: {
         textAlign: "center",
         fontSize: "36px",
         color: "#374b5c",
     },
-    AboutDescription: {
+    About_Description: {
         textAlign: "center",
         fontSize: "16px",
         color: "#374b5c",

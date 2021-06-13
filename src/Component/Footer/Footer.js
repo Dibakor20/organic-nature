@@ -22,44 +22,44 @@ const Footer = () => {
                                 </Typography>
                             </Box>
                             <Box>
-                                <Typography className={classes.footerDescription}>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br /> sed do eiusmod tempor</Typography>
+                                <Typography className={classes.footer_Description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br /> sed do eiusmod tempor</Typography>
                             </Box>
                             <Box>
-                                <Typography className={classes.footerCopyright}>© Copyright 2020 Nature</Typography>
+                                <Typography className={classes.footer_Copyright}>© Copyright 2020 Nature</Typography>
                             </Box>
                         </Grid>
 
                         <Grid item xs={12} sm={3}>
                             <Box >
-                                <Typography className={classes.footerTitle}>Information</Typography>
+                                <Typography className={classes.footer_Title}>Information</Typography>
                             </Box>
                             <Box>
-                                <Typography className={classes.footerDescription}>About Us</Typography>
+                                <Typography className={classes.footer_Description}>About Us</Typography>
                             </Box>
                             <Box>
-                                <Typography className={classes.footerDescription}>Products</Typography>
+                                <Typography className={classes.footer_Description}>Products</Typography>
                             </Box>
                             <Box>
-                                <Typography className={classes.footerDescription}>Contact Us</Typography>
+                                <Typography className={classes.footer_Description}>Contact Us</Typography>
                             </Box>
                             <Box>
-                                <Typography className={classes.footerDescription}>Terms of Service</Typography>
+                                <Typography className={classes.footer_Description}>Terms of Service</Typography>
                             </Box>
                         </Grid>
 
                         <Grid item xs={12} sm={2}>
 
                             <Box className={classes.Box_Product}>
-                                <Typography className={classes.footerDescription}>About Us</Typography>
+                                <Typography className={classes.footer_Description}>About Us</Typography>
                             </Box>
                             <Box>
-                                <Typography className={classes.footerDescription}>Products</Typography>
+                                <Typography className={classes.footer_Description}>Products</Typography>
                             </Box>
                         </Grid>
 
                         <Grid item xs={12} sm={2}>
                             <Box >
-                                <Typography className={classes.footerTitle}>Follow Us</Typography>
+                                <Typography className={classes.footer_Title}>Follow Us</Typography>
                             </Box>
                             <Box>
                                 <Typography>

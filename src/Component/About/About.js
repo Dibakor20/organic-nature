@@ -15,12 +15,12 @@ const About = () => {
             <Container maxWidth='xl'>
             <Box className={classes.About}>
              <Typography>
-             <img src={AboutLogo} alt="Aboutlogo" className={classes.AboutLogo} />
+             <img src={AboutLogo} alt="Aboutlogo" className={classes.About_Logo} />
              </Typography>
-             <Typography className={classes.AboutTitle}>
+             <Typography className={classes.About_Title}>
               Welcome to Nature
              </Typography>
-             <Typography className={classes.AboutDescription}>
+             <Typography className={classes.About_Description}>
              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br/> incididunt ut labore et dolore magna aliqua.
              </Typography>
             </Box>
